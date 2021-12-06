@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".45"
+        android:src="@drawable/splash_image" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help Me APP"
+        android:textSize="32sp"
+        android:textColor="@color/semi_red"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="?attr/actionBarSize"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            >
+            <EditText
+                android:id="@+id/loginEmail"
+                android:layout_width="300dp"
+                android:layout_height="48dp"
+                android:textSize="25sp"
+                android:textColor="@color/semi_red"
+                android:paddingStart="10dp"
+                android:background="@color/page"
+                android:layout_marginBottom="12dp"
+                android:hint="EMAIL"
+                android:textColorHint="@color/semi_red"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                />
+
+            <EditText
+                android:id="@+id/loginPass"
+                android:layout_width="300dp"
+                android:layout_height="48dp"
+                android:textSize="25sp"
+                android:textColor="@color/semi_red"
+                android:paddingStart="10dp"
+                android:inputType="textPassword"
+                android:background="@color/page"
+                android:hint="Password"
+                android:textColorHint="@color/semi_red"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                />
+            <Button
+                android:id="@+id/loginLogin"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:text="LOGIN"
+                android:gravity="center"
+                android:background="#77000000"
+                android:layout_marginTop="?actionBarSize"
+                />
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/dontHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="dont have accoun!signup"
+        android:textColor="@color/semi_red"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="forget password"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/semi_red"
+        android:layout_marginBottom="?actionBarSize"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splash_image"
+        android:alpha=".45"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help Me APP"
+        android:textSize="32sp"
+        android:textColor="@color/semi_red"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="?attr/actionBarSize"
+        />
+    <LinearLayout
+        android:id="@+id/userHelperLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/userButton"
+            android:layout_width="180dp"
+            android:layout_height="350dp"
+            android:text="USER"
+            android:layout_marginEnd="20dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+
+            android:background="@drawable/box2"
+            android:alpha=".85"
+            />
+        <Button
+            android:id="@+id/helperButton"
+            android:layout_width="180dp"
+            android:layout_height="350dp"
+            android:text="HELPER"
+            android:background="@drawable/box3"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:alpha=".85"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chooseAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your account"
+        android:textSize="32sp"
+        android:textColor="@color/semi_red"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/userHelperLayout"
+        />
+
+    <TextView
+        android:id="@+id/color_String"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chooseAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:text="Your car in the right hands"
+        android:textColor="@color/semi_red"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

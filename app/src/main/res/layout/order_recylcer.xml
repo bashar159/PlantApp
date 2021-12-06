@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="5dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/box_2"
+
+    >
+
+    <TextView
+
+        android:id="@+id/orderTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Mohammad ali"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/orderTypeOfExp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Emad Ali"
+        android:textColor="@color/quantum_yellow"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@id/orderTextName"
+        />
+
+    <RatingBar
+        android:id="@+id/orderRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_below="@id/orderTypeOfExp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:rating="5"
+        />
+
+</RelativeLayout>

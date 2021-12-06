@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users.Fragment.GoogleMaps"
+    >
+
+    <LinearLayout
+        android:id="@+id/Locarion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#777575"
+        android:orientation="horizontal"
+        android:padding="5dp"
+
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_location_on_24" />
+
+        <SearchView
+            android:id="@+id/sv_location"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:queryHint="Add your location"
+            android:elevation="5dp"
+            android:iconifiedByDefault="false"
+            android:background="@drawable/search_view"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/spinner"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/spinner_style">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Locarion"
+        android:background="@drawable/box1" />
+
+    <fragment
+        android:id="@+id/googleMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/recyclerView" />
+
+</RelativeLayout>

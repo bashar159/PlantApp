@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SignUoActivity"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/bio_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help Me APP"
+            android:textSize="32sp"
+            android:textColor="@color/semi_red"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="?attr/actionBarSize"
+            />
+
+        <TextView
+            android:id="@+id/helper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bio_bio"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Helper"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:id="@+id/signUpLayout_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/helper"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+            <EditText
+                android:id="@+id/signUpFullName_editText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/semi_red"
+                android:textStyle="bold"
+                android:background="@color/page1"
+                android:gravity="center"
+                android:hint="FULL NAME"
+                android:textColorHint="@color/semi_red"
+                />
+
+            <EditText
+                android:id="@+id/signUpEmail_editText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/semi_red"
+                android:textStyle="bold"
+                android:background="@color/page1"
+                android:gravity="center"
+                android:hint="EMAIL"
+                android:textColorHint="@color/semi_red"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:id="@+id/signUpPassword_editText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/semi_red"
+                android:inputType="textPassword"
+                android:textStyle="bold"
+                android:background="@color/page1"
+                android:gravity="center"
+                android:hint="PASSWORD"
+                android:textColorHint="@color/semi_red"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:id="@+id/signUpTypeOfExp_editText"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/page1"
+                android:gravity="center"
+                android:hint="Type of experience"
+                android:minHeight="48dp"
+                android:textColor="@color/semi_red"
+                android:textColorHint="@color/semi_red"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/signUplevelOfExp_editText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/semi_red"
+                android:textStyle="bold"
+                android:background="@color/page1"
+                android:gravity="center"
+                android:hint="Level of experience"
+                android:textColorHint="@color/semi_red"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/signUpLocation_editText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/semi_red"
+                android:textStyle="bold"
+                android:background="@color/page1"
+                android:gravity="center"
+                android:hint="Location"
+                android:textColorHint="@color/semi_red"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:id="@+id/signUpPhone_editText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/semi_red"
+                android:textStyle="bold"
+                android:background="@color/page1"
+                android:gravity="center"
+                android:hint="phone number"
+                android:textColorHint="@color/semi_red"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/signUpLayout_editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="?actionBarSize"
+            android:background="#77000000"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>

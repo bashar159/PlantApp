@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:background="@drawable/box_2"
+    >
+
+    <TextView
+        android:id="@+id/helperNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Emad Ali"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/helperCarType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/helperNameText"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Ford Fuosin"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/helperCarColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/helperCarType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="BLACK"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/locTExt"
+        android:layout_marginLeft="27dp"
+        android:src="@drawable/location" />
+
+    <TextView
+        android:id="@+id/locTExt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Location"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+
+    <ImageView
+        android:id="@+id/helperDialogLocation"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/locTExt"
+        android:layout_marginLeft="27dp"
+        android:src="@drawable/location" />
+
+    <TextView
+        android:id="@+id/locloText"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Location"
+        android:textColor="@color/white"
+        android:textSize="27sp" />
+
+    <ImageView
+        android:id="@+id/helperDialogTrue"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:layout_above="@id/locloText"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/yick2" />
+
+</RelativeLayout>

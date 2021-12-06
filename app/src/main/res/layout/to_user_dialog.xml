@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/box_2"
+    >
+
+    <ImageView
+        android:id="@+id/cancelImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/cancel" />
+
+    <TextView
+        android:id="@+id/S0788"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cancelImage"
+        android:layout_centerHorizontal="true"
+        android:text="Your helper in his way to you"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/TickImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/S0788"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/tick" />
+
+
+    <TextView
+        android:id="@+id/toUserNAmeTExt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TickImage"
+        android:layout_centerHorizontal="true"
+        android:text="Mohammad Ali Hosam"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/toUserEXPType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toUserNAmeTExt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="car mechanic"
+        android:textColor="@color/quantum_yellow"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="5"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_below="@id/toUserEXPType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/contactImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/contact"
+        android:layout_below="@id/ratingBar"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

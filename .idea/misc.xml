@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/bio_bio/.gradle/caches/transforms-3/4b18baa9266eba5441dc9be7b537a834/transformed/core-1.5.0/res/layout/custom_dialog.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/drawable/edittext_background.xml" value="0.31203703703703706" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/drawable/search_view.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/drawable/spinner_style.xml" value="0.24537037037037038" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_helper_profile.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_helperm_map.xml" value="0.31351351351351353" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_home_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_main.xml" value="0.26944444444444443" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_orders.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_sign_uo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_user_home_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/activity_user_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/done_dialog.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/drop_dwon_list.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/fragment_google_maps.xml" value="0.33" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/fragment_helper_map.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/fragment_maps.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/fragment_nearby_helper.xml" value="0.25" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/helper_dialog.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/nearby_dialog.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/order_recylcer.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/style_spinner.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/to_helper_layout.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/layout/to_user_dialog.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/menu/navigation_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/bio_bio/AndroidStudioProjects/Task14/app/src/main/res/menu/user_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
